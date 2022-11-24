@@ -1,0 +1,60 @@
+.people-container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.people-grid {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+}
+
+.people-title {
+    display: grid;
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    height: 60px;
+    font-size: 2em;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+
+.people-label {
+    padding: 5px;
+    text-align: end;
+    height: 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.people-value {
+    padding: 5px;
+    height: 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.people-section {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.people-section-item {
+    display: flex;
+    text-align: center;
+}
+
+.people-section-title {
+    display: grid;
+    padding: 5px;
+    padding-left: 10px;
+    height: 45px;
+    font-size: 1.5em;
+    color: white;
+    grid-column: 1/3;
+    background-color: black;
+}

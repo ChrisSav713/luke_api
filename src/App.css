@@ -1,0 +1,48 @@
+.app-container {
+    display: grid;
+}
+
+.title {
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title>img {
+    height: 100px;
+}
+
+.input-field {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 100px 210px 200px 50px auto 80px 80px;
+    gap: 5px;
+    flex-grow: 1;
+}
+
+.input-field>button {
+    white-space: nowrap;
+}
+
+.results-box {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: grid;
+}
+
+.result-container {
+    max-height: 200px;
+    overflow: scroll;
+}
+
+
+/* .inputLabel {
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px;
+} */
